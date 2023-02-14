@@ -260,6 +260,7 @@ void main() {
       expect(renderBox.debugLayer, isNull);
     });
   });
+<<<<<<< HEAD
 
   test('markNeedsPaint does not get called when setting the same viewController', () {
     FakeAsync().run((FakeAsync async) {
@@ -296,6 +297,8 @@ void main() {
       expect(futureCallbackRan, true);
     });
   });
+=======
+>>>>>>> 7ac27ac8e6a42750c475ba8a2a3c7047b93fd949
 }
 
 ui.PointerData _pointerData(

@@ -118,9 +118,13 @@ class FakeAndroidViewController implements AndroidViewController {
   }
 
   @override
+<<<<<<< HEAD
   void removeOnPlatformViewCreatedListener(PlatformViewCreatedCallback listener) {
     createdCallbacks.remove(listener);
   }
+=======
+  void removeOnPlatformViewCreatedListener(PlatformViewCreatedCallback listener) {}
+>>>>>>> 7ac27ac8e6a42750c475ba8a2a3c7047b93fd949
 
   @override
   Future<void> sendMotionEvent(AndroidMotionEvent event) {

@@ -245,6 +245,13 @@ known, it can be explicitly provided to attach via the command-line, e.g.
     await _validateArguments();
 
     final Device? device = await findTargetDevice();
+<<<<<<< HEAD
+=======
+
+    if (device == null) {
+      throwToolExit('Did not find any valid target devices.');
+    }
+>>>>>>> 7ac27ac8e6a42750c475ba8a2a3c7047b93fd949
 
     if (device == null) {
       throwToolExit('Did not find any valid target devices.');
